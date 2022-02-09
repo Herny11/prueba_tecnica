@@ -2,6 +2,8 @@
 {
     box-sizing: border-box;
     background: linear-gradient(#7c167d, #2e0e5b);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -10,8 +12,8 @@
 .rectangulo
 {
     display: flex;/* para hacer flexible las columnas*/
-    margin-top: 129px;
-    margin-bottom: 129px;
+    margin-top: 12%;
+    margin-bottom: 8%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
